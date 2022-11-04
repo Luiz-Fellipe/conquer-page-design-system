@@ -1,0 +1,3 @@
+{
+  "extends": ["@conquerpage/eslint-config","plugin:jest/recommended"]
+}

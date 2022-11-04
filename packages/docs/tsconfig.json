@@ -1,0 +1,4 @@
+{
+  "extends": "@conquerpage/ts-config/react.json",
+  "include": ["src"]
+}
