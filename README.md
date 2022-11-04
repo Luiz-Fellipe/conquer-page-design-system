@@ -24,7 +24,7 @@ The Prototype of this project can be found in this [link from figma](https://www
 
 <br>
 
-<h3><a target="_blank" href="https://luiz-fellipe.github.io/conquerpage-design-system/?path=/story/atoms-button--primary">Project Demo Here</a></h3>
+<h3><a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system/?path=/story/atoms-button--primary">Project Demo Here</a></h3>
 
 
 <br>
