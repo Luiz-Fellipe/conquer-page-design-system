@@ -57,7 +57,7 @@ This project is in progress and has the following collection of Components avail
 
 The implemented alerts have 4 variations: Success, Info, Warning and Danger. Besides having support for different sizes
 
-<a target="_blank" href="https://luiz-fellipe.github.io/conquerpage-design-system?path=/story/atoms-alert--success">Check Alert Demo Here</a>
+<a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system?path=/story/atoms-alert--success">Check Alert Demo Here</a>
 
   <br>
 
@@ -73,7 +73,7 @@ The implemented alerts have 4 variations: Success, Info, Warning and Danger. Bes
 
 The implemented buttons have 5 variations: Primary, Secondary, Minimalist, Danger and Link. Besides having support for icons and different sizes
 
-<a target="_blank" href="https://luiz-fellipe.github.io/conquerpage-design-system/?path=/story/atoms-button--primary">Check Button Demo Here</a>
+<a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system/?path=/story/atoms-button--primary">Check Button Demo Here</a>
 
 
 
@@ -91,7 +91,7 @@ The implemented buttons have 5 variations: Primary, Secondary, Minimalist, Dange
 
 The implemented inputs support auxiliary texts, icons, error messages, and adapt to different sizes.
 
-<a target="_blank" href="https://luiz-fellipe.github.io/conquerpage-design-system/?path=/story/atoms-input--enabled">Check Input Demo Here</a>
+<a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system/?path=/story/atoms-input--enabled">Check Input Demo Here</a>
 
 
   <br>
@@ -109,7 +109,7 @@ The implemented modals follow accessibility rules and give the developer the fre
 
 In this component we used the <a target="_blank" href="https://www.radix-ui.com/docs/primitives/components/dialog">Radix UI</a>
 
-<a target="_blank" href="https://luiz-fellipe.github.io/conquerpage-design-system/?path=/story/molecules-overlay-modal-dialog--dialog">Check Modal Demo Here</a>
+<a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system/?path=/story/molecules-overlay-modal-dialog--dialog">Check Modal Demo Here</a>
 
   <br>
 
