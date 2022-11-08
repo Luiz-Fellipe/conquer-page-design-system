@@ -37,6 +37,35 @@ In this project i followed the [Atomic Design Metodology](https://xd.adobe.com/i
 
 <br>
 
+<h3 id="tokens">Tokens</h3>
+<br>
+
+Tokens used in the standardization of the project, for example: colors, font types, font sizes, etc...
+
+<br>
+
+<a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system/?path=/story/tokens-colors--page">Check Tokens Demo Here</a>
+
+<h5>How to use</h5>
+
+```sh
+npm install @conquerpage/tokens
+```
+
+```js
+import {
+  colors,
+  fontSizes,
+  fontWeights,
+  fonts,
+  radii,
+  lineHeights,
+  shadows,
+  space,
+  zIndices,
+} from '@conquerpage/tokens'
+```
+
 <h3 id="components">Components Available</h3>
 <br>
 
@@ -52,16 +81,30 @@ This project is in progress and has the following collection of Components avail
 <hr>
 <br>
 
-<h4 id="buttons"><strong>Alerts</strong></h4>
+
+<h4 id="alerts"><strong>Alerts</strong></h4>
   <br>
 
 The implemented alerts have 4 variations: Success, Info, Warning and Danger. Besides having support for different sizes
 
+
 <a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system?path=/story/atoms-alert--success">Check Alert Demo Here</a>
 
-  <br>
+  
+  <h5>How to use</h5>
 
-  <img src="./imgs/alerts.png" width="auto" />
+```sh
+npm install @conquerpage/react
+```
+
+```js
+import { Alert } from '@conquerpage/react'
+
+<Alert variant="info" title="Info Title" description="Info description" />
+```
+
+ <br>
+ <img src="./imgs/alerts.png" width="auto" />
 
 
 <br>
@@ -76,6 +119,17 @@ The implemented buttons have 5 variations: Primary, Secondary, Minimalist, Dange
 <a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system/?path=/story/atoms-button--primary">Check Button Demo Here</a>
 
 
+ <h5>How to use</h5>
+
+```sh
+npm install @conquerpage/react
+```
+
+```js
+import { Button } from '@conquerpage/react'
+
+<Button variant="primary">My Button</Button>
+```
 
   <br>
 
@@ -94,6 +148,21 @@ The implemented inputs support auxiliary texts, icons, error messages, and adapt
 <a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system/?path=/story/atoms-input--enabled">Check Input Demo Here</a>
 
 
+<h5>How to use</h5>
+
+```sh
+npm install @conquerpage/react
+```
+
+```js
+import { Input, InputWithIcon } from '@conquerpage/react'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+
+<Input placeholder="My placeholder" defaultValue="Hello World" />
+
+<InputWithIcon Icon={faSearch} placeholder="My placeholder" defaultValue="Hello World" />
+```
+
   <br>
 
   <img src="./imgs/inputs.png" width="auto" />
@@ -110,6 +179,31 @@ The implemented modals follow accessibility rules and give the developer the fre
 In this component we used the <a target="_blank" href="https://www.radix-ui.com/docs/primitives/components/dialog">Radix UI</a>
 
 <a target="_blank" href="https://luiz-fellipe.github.io/conquer-page-design-system/?path=/story/molecules-overlay-modal-dialog--dialog">Check Modal Demo Here</a>
+
+<h5>How to use</h5>
+
+```sh
+npm install @conquerpage/react
+```
+
+```js
+import {   Modal,
+  ModalProps,
+  ModalContent,
+  ModalTrigger,
+  ModalWrapper } from '@conquerpage/react'
+ 
+  <ModalComponent  onOpenChange={(open) => setOpen(open)} open={open}>
+      <ModalTrigger asChild>
+        <Button>Open Modal</Button>
+      </ModalTrigger>
+      <ModalWrapper>
+        <ModalContent>
+          <span>Your content here</span>
+        </ModalContent>
+      </ModalWrapper>
+    </ModalComponent>
+```
 
   <br>
 
@@ -128,8 +222,7 @@ This project was developed with the following technologies:
 <br>
 
 - <a target="_blank" href="https://nodejs.org/en/">Node 16.17</a>
-- <a target="_blank" href="https://reactjs.org/">React 17.0</a>
-- <a target="_blank" href="https://nextjs.org/">Next JS 12.0.7</a>
+- <a target="_blank" href="https://reactjs.org/">React 18.0</a>
 - <a target="_blank" href="https://www.typescriptlang.org/">TypeScript 4.5.4</a>
 - <a target="_blank" href="https://storybook.js.org/">Storybook</a>
 - <a target="_blank" href="https://www.radix-ui.com/">Radix-UI</a>
@@ -138,6 +231,10 @@ This project was developed with the following technologies:
 - <a target="_blank" href="https://eslint.org/">ESLint</a>
 - <a target="_blank" href="https://jestjs.io">Jest</a>
 - <a target="_blank" href="https://testing-library.com/">Testing Library</a>
+- <a target="_blank" href="https://turbo.build/repo">TurboRepo</a>
+- <a target="_blank" href="https://github.com/changesets/changesets/blob/main/packages/cli/README.md">ChangeSet</a>
+
+
 
 <br>
 
@@ -154,7 +251,7 @@ To run the project:
       <br>
 - Open the project folder in the terminal and run:
   - `yarn` or `npm install` -> To install all dependencies;
-  - `yarn storybook` or `npm run storybook` -> To run the project;
+  - `yarn dev` or `npm run dev` -> To run the project;
 
 <br><br>
 
