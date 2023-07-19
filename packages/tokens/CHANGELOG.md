@@ -1,5 +1,11 @@
 # @conquerpage/tokens
 
+## 1.2.2
+
+### Patch Changes
+
+- removes orange variant of the button
+
 ## 1.2.1
 
 ### Patch Changes

@@ -91,15 +91,6 @@ export const Link: StoryObj<IButtonProps> = {
   },
 }
 
-export const Orange: StoryObj<IButtonProps> = {
-  args: {
-    variant: 'orange',
-  },
-  parameters: {
-    controls: { exclude: ['Icon', 'iconSide', 'onlyIcon'] },
-  },
-}
-
 export const ButtonWithIconAndLabel: StoryObj<IButtonProps> = {
   args: {
     iconSide: 'left',
