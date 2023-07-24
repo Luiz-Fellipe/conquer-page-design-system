@@ -1,5 +1,11 @@
 # @conquerpage/react
 
+## 2.0.3
+
+### Patch Changes
+
+- added new button 'orange' variant
+
 ## 2.0.2
 
 ### Patch Changes

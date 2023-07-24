@@ -106,3 +106,12 @@ export const ButtonWithOnlyIcon: StoryObj<IButtonProps> = {
     children: '',
   },
 }
+
+export const Orange: StoryObj<IButtonProps> = {
+  args: {
+    variant: 'orange',
+  },
+  parameters: {
+    controls: { exclude: ['Icon', 'iconSide', 'onlyIcon'] },
+  },
+}

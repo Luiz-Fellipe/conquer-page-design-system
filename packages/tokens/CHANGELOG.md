@@ -1,5 +1,11 @@
 # @conquerpage/tokens
 
+## 1.2.3
+
+### Patch Changes
+
+- added new button 'orange' variant
+
 ## 1.2.2
 
 ### Patch Changes
