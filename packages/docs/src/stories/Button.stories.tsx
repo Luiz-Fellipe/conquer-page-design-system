@@ -115,3 +115,12 @@ export const Orange: StoryObj<IButtonProps> = {
     controls: { exclude: ['Icon', 'iconSide', 'onlyIcon'] },
   },
 }
+
+export const Barbie: StoryObj<IButtonProps> = {
+  args: {
+    variant: 'barbie',
+  },
+  parameters: {
+    controls: { exclude: ['Icon', 'iconSide', 'onlyIcon'] },
+  },
+}

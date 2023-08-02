@@ -1,5 +1,11 @@
 # @conquerpage/react
 
+## 2.0.4
+
+### Patch Changes
+
+- add variant barbie
+
 ## 2.0.3
 
 ### Patch Changes

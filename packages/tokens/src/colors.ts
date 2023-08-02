@@ -60,6 +60,7 @@ export const colors = {
   P400: '#ED55C2',
   P500: '#BE449B',
   P600: '#8E3374',
+  Barbie: '#8E3374',
   O50: '#FDF7F4',
   O100: '#F8E3DA',
   O200: '#F2C8B6',

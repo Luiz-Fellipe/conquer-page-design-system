@@ -156,6 +156,26 @@ export const ButtonStyled = styled('button', {
           backgroundColor: '$O700',
         },
       },
+      barbie: {
+        backgroundColor: '$Barbie',
+
+        textAlign: 'center',
+        color: '$N0',
+
+        '&:hover': {
+          backgroundColor: '$Barbie',
+        },
+        '&:focus': {
+          outline: '2px solid $Barbie',
+        },
+        '&:active': {
+          backgroundColor: '$Barbie',
+        },
+        '&:disabled': {
+          cursor: 'not-allowed',
+          backgroundColor: '$Barbie',
+        },
+      },
     },
     size: {
       small: {

@@ -1,5 +1,11 @@
 # @conquerpage/tokens
 
+## 1.2.4
+
+### Patch Changes
+
+- add variant barbie
+
 ## 1.2.3
 
 ### Patch Changes
