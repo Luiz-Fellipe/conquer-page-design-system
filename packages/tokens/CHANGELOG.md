@@ -1,5 +1,11 @@
 # @conquerpage/tokens
 
+## 1.2.5
+
+### Patch Changes
+
+- remove orange and barbie color
+
 ## 1.2.4
 
 ### Patch Changes

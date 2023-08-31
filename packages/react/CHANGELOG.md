@@ -1,5 +1,11 @@
 # @conquerpage/react
 
+## 2.0.5
+
+### Patch Changes
+
+- remove orange and barbie color
+
 ## 2.0.4
 
 ### Patch Changes

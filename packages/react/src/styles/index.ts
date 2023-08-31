@@ -1,4 +1,4 @@
-import { createStitches, ScaleValue } from '@stitches/react'
+import { createStitches } from '@stitches/react'
 import {
   colors,
   space,

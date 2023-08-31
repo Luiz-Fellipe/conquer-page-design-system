@@ -8,14 +8,8 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core'
 import { ButtonStyled } from './styles'
 
 export type IButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  variant?:
-    | 'primary'
-    | 'secondary'
-    | 'minimal'
-    | 'danger'
-    | 'link'
-    | 'orange'
-    | 'barbie'
+  variant?: 'primary' | 'secondary' | 'minimal' | 'danger' | 'link'
+
   size?: 'small' | 'medium' | 'large'
   full?: boolean
   disabled?: boolean

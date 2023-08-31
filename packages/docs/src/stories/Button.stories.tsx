@@ -106,21 +106,3 @@ export const ButtonWithOnlyIcon: StoryObj<IButtonProps> = {
     children: '',
   },
 }
-
-export const Orange: StoryObj<IButtonProps> = {
-  args: {
-    variant: 'orange',
-  },
-  parameters: {
-    controls: { exclude: ['Icon', 'iconSide', 'onlyIcon'] },
-  },
-}
-
-export const Barbie: StoryObj<IButtonProps> = {
-  args: {
-    variant: 'barbie',
-  },
-  parameters: {
-    controls: { exclude: ['Icon', 'iconSide', 'onlyIcon'] },
-  },
-}
